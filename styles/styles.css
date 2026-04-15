@@ -72,11 +72,13 @@ a {
     color: black
 }
 
-main a:hover, footer a:hover{
+main a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
-.fake-button:hover, .blue-hover:hover {
+.fake-button:hover,
+.blue-hover:hover {
     text-decoration: underline;
     background-color: #4278e5;
     color: white;
@@ -92,7 +94,8 @@ main a:hover, footer a:hover{
     - there will be 25px of space between the header and main, and 50px of space between main and footer.
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
-header, footer {
+header,
+footer {
     background-color: #E5AF42;
 }
 
@@ -140,7 +143,8 @@ footer {
     flex: 1;
 }
 
-.index img, .about-us {
+.index img,
+.about-us {
     margin-bottom: 50px;
 }
 
@@ -160,7 +164,7 @@ footer {
     width: 250px;
 }
 
-.fake-button{
+.fake-button {
     text-align: center;
 }
 
@@ -201,7 +205,8 @@ footer {
     width: 60px;
 }
 
-.day-selector li, .small-button {
+.day-selector li,
+.small-button {
     border: 1px solid black;
     text-align: center;
 }
@@ -220,8 +225,9 @@ footer {
 }
 
 .clicked {
-    background-color: #E5AF42; 
+    background-color: #E5AF42;
 }
+
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
@@ -246,11 +252,13 @@ footer {
     text-align: right;
 }
 
-.contact textarea{
+.contact textarea {
     height: 150px;
 }
 
-.contact input, .contact textarea, .contact button {
+.contact input,
+.contact textarea,
+.contact button {
     width: 300px;
     font-size: 16px;
     border: 1px solid black;
