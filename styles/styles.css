@@ -168,7 +168,7 @@ footer {
     text-align: center;
 }
 
-.index div:nth-of-type(2) {
+.index .button-container {
     justify-content: center;
     gap: 150px;
 }
