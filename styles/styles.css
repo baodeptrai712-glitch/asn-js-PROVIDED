@@ -27,6 +27,12 @@ body {
     display: flex;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /************* site-wide text styling *************/
 
 /* TO DO:
@@ -220,12 +226,6 @@ footer {
 
 .clicked {
     background-color: #E5AF42;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 /************* contact page *************/
 /* TO DO:
